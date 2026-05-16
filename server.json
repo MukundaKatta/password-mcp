@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/password",
+  "description": "MCP server: generate strong passwords and score password strength with zxcvbn.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/password-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/password-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/password-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
